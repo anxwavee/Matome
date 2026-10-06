@@ -1,3 +1,6 @@
+## REMARK/NOTE
+This is a redone version of the project. My first repository (It was called UniFLow) only had the test version of it committed and the new version was full of conflicts, and the project's Git files got messed up after moving the folder to another place. So at the last moment I decided to delete it, created a new project and repository, and recommitted everything here again, starting with the design sketches. Because of that, all commits are from the deadline day instead of being spread over the week I apologize for it((
+
 # Matome
 
 **Matome** (まとめ, "summary / bringing together") is a student organizer for university.
@@ -21,15 +24,7 @@ Built with Kotlin, Jetpack Compose, Material 3 and Navigation Compose.
 
 A bottom navigation bar switches between Home, All tasks and Settings. Every screen except Home has a back button.
 
-## Screenshots
-
-| Screen | Light | Dark |
-|---|---|---|
-| Home | ![](screenshots/home_light.png) | ![](screenshots/home_dark.png) |
-| All tasks | ![](screenshots/tasks_light.png) | ![](screenshots/tasks_dark.png) |
-| Task details | ![](screenshots/task_detail_light.png) | ![](screenshots/task_detail_dark.png) |
-| Course details | ![](screenshots/course_detail_light.png) | ![](screenshots/course_detail_dark.png) |
-| Settings | ![](screenshots/settings_light.png) | ![](screenshots/settings_dark.png) |
+Screenshots will be at the pre-release version
 
 ## Design: sketch vs app
 
@@ -69,3 +64,8 @@ app/src/main/java/com/example/matome/
 
 Open the project in Android Studio, let Gradle sync, and run the `app` configuration.
 Every screen and component has a `@PreviewLightDark` preview, so you can see light and dark mode in the Preview panel without running the app.
+
+##AI-usage
+AI was used to format the readme file and to help with architecture of the project and theory explanation, everything else was made by me.
+
+
