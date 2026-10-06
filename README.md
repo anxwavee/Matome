@@ -1,5 +1,5 @@
 ## REMARK/NOTE
-This is a redone version of the project. My first repository (It was called UniFLow) only had the test version of it committed and the new version was full of conflicts, and the project's Git files got messed up after moving the folder to another place. So at the last moment I decided to delete it, created a new project and repository, and recommitted everything here again, starting with the design sketches. Because of that, all commits are from the deadline day instead of being spread over the week I apologize for it((
+This is a recommited version of the project. My first repository (It was called UniFLow) only had the test version of it committed and the new version was full of conflicts, and the project's Git files got messed up after moving the folder to another place. So at the last moment I decided to delete it, created a new project and repository, and recommitted everything here again, starting with the design sketches. Because of that, all commits are from the deadline day instead of being spread over the week I apologize for it((
 
 # Matome
 
@@ -65,7 +65,7 @@ app/src/main/java/com/example/matome/
 Open the project in Android Studio, let Gradle sync, and run the `app` configuration.
 Every screen and component has a `@PreviewLightDark` preview, so you can see light and dark mode in the Preview panel without running the app.
 
-##AI-usage
+## AI-usage:
 AI was used to format the readme file and to help with architecture of the project and theory explanation, everything else was made by me.
 
 
