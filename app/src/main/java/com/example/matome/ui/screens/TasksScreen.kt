@@ -30,13 +30,6 @@ import com.example.matome.ui.components.TaskCard
 import com.example.matome.ui.theme.MatomeTheme
 import com.example.matome.ui.theme.Spacing
 
-enum class TaskFilter(val label: String) {
-    All("All"),
-    Urgent("Urgent"),
-    Today("Today"),
-    Done("Done"),
-}
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TasksScreen(

@@ -1,4 +1,4 @@
-# Matome — MVVM Architecture (SIS4)
+# Matome - MVVM Architecture (SIS4)
 
 ## Restaurant picture
 View (waiter)          ViewModel (chef)           Repository (fridge)
