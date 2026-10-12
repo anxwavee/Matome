@@ -11,7 +11,7 @@ import com.example.matome.ui.screens.CourseDetailScreen
 import com.example.matome.ui.screens.HomeScreen
 import com.example.matome.ui.screens.SettingsScreen
 import com.example.matome.ui.screens.TaskDetailScreen
-import com.example.matome.ui.screens.TasksScreen
+import com.example.matome.ui.screens.TasksRoute
 
 object Routes {
     const val HOME = "home"
@@ -40,7 +40,7 @@ fun MatomeNavHost(
         }
 
         composable(Routes.TASKS) {
-            TasksScreen(
+            TasksRoute(
                 onTaskClick = { taskId -> navController.navigate(Routes.taskDetail(taskId)) },
                 onBackClick = { navController.popBackStack() },
                 onBottomNavClick = { route -> navController.navigateToSection(route) },
